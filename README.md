@@ -11,7 +11,7 @@
   * [Licentie](#licentie)
 
 ## User Story
-
+> Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
 
 ## Beschrijving
 
