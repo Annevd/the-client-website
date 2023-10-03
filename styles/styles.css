@@ -369,6 +369,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     overflow-wrap: break-word;
+    margin-bottom: 1rem;
 }
 
 .book {
@@ -386,10 +387,7 @@ h1 {
     padding: .5rem 2rem;
     border-radius: 1rem;
     color: var(--text-color);
-}
-
-.book a:visited {
-    text-decoration: none;
+    transition: .2s ease-in-out;
 }
 
 .rec-title {
@@ -402,4 +400,57 @@ h1 {
 .rec-title h2 {
     font-size: 30px;
     text-align: center;
+}
+
+.recommendations{
+    justify-content: center;
+    text-align: center;
+}
+
+.activity {
+    position: relative;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 1rem;
+}
+
+.activity img {
+    display: block;
+}
+
+.activity h3 {
+    position: absolute;
+    bottom: 1em;
+}
+
+.activity h3 a {
+    padding: .4rem 1rem;
+    background: white;
+    border-radius: 1rem;
+    color: var(--text-color);
+    transition: .2s ease-in-out;
+
+    transition: .5s;
+}
+
+.activity h3 a:hover, 
+.activity h3 a:focus,
+.book a:hover,
+.book a:focus {
+    background: var(--primary-color);
+    opacity: 0.8;
+    color: white;
+}
+
+.activity h3 a:active {
+    background: green;
+    transition: 0s;
+}
+
+.book a, .activity a:link {
+    text-decoration: none;
+}
+
+.book a, .activity a:visited {
+    text-decoration: none;
 }
