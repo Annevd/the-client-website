@@ -379,6 +379,10 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.book img {
+    box-shadow: 5px 5px 5px rgb(204, 204, 204);
+}
+
 .book p {
     margin-bottom: 1.5rem;
 }
@@ -426,6 +430,7 @@ h1 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5%;
 }
 
 .activity h3 {
@@ -469,6 +474,13 @@ h1 {
 
 .book a, .activity a:visited {
     text-decoration: none;
+}
+
+body.dark .home .book a, 
+body.dark .home .activity h3 a,
+body.dark .home .book img {
+    color: var(--primary-color);
+    box-shadow: none;
 }
 
 /* Media queries */
