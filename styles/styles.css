@@ -483,6 +483,15 @@ body.dark .home .book img {
     box-shadow: none;
 }
 
+body.dark .home .activity h3 a:hover, 
+body.dark .home .activity h3 a:focus,
+body.dark .home .book a:hover,
+body.dark .home .book a:focus {
+    background: #FF0000;
+    opacity: 0.8;
+    color: white;
+}
+
 /* Media queries */
 
 @media (min-width: 520px) {
