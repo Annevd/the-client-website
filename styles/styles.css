@@ -370,7 +370,7 @@ h1 {
     font-size: 30px;
     text-align: center;
     overflow-wrap: break-word;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 .book {
@@ -395,7 +395,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 1rem 0;
+    margin: 2rem 0;
 }
 
 .rec-title h2 {
@@ -404,24 +404,34 @@ h1 {
 }
 
 .recommendations{
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, 280px);
+    gap: 1rem;
+    justify-content: center;
 }
 
 .activity {
     position: relative;
     display: grid;
     justify-items: center;
-    margin-bottom: 2rem;
+    /* width: 90%; */
+    /* max-width: 280px; */
+    /* margin: 0 auto 2rem auto; */
 }
 
 .activity img {
     display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .activity h3 {
     position: absolute;
     bottom: 1em;
+    width: 100%;
 }
 
 .activity h3 a {
@@ -429,8 +439,13 @@ h1 {
     background: white;
     border-radius: 1rem;
     color: var(--text-color);
-    transition: .2s ease-in-out;
+    display: inline-block;
+    max-width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
 
+    transition: .2s ease-in-out;
     transition: .5s;
 }
 
@@ -455,3 +470,61 @@ h1 {
 .book a, .activity a:visited {
     text-decoration: none;
 }
+
+/* Media queries */
+
+@media (min-width: 520px) {
+    .rec-title {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 850px) {
+    h1 {
+        text-align: start;
+        padding-left: 1rem;
+    }
+
+    .book {
+        text-align: start;
+        margin: 0 3rem 2rem 0;
+        /* max-width: 180px; */
+        display: flex;
+        flex-flow: column;
+        align-items: start;
+        justify-content: space-between;
+    }
+
+    .book-list {
+        /* display: flex;
+        flex-wrap: wrap; */
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
+        gap: 1rem;
+    }
+
+    .rec-title {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 1rem;
+    }
+
+    .rec-title img {
+        margin-left: 5rem;
+    }
+
+    .recommendations {
+        /* display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;*/
+        justify-content: start;
+    }
+
+    .activity {
+        margin: 1rem;
+    }
+}
+
