@@ -497,14 +497,14 @@ body.dark .home .book a:focus {
 
 /* Media queries */
 
-@media (min-width: 520px) {
+@media (min-width: 32em) {
     .rec-title {
         flex-direction: column;
         align-items: center;
     }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 53em) {
     h1 {
         text-align: start;
         padding-left: 1rem;
@@ -551,4 +551,3 @@ body.dark .home .book a:focus {
         margin: 1rem;
     }
 }
-
