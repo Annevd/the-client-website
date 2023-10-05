@@ -360,18 +360,20 @@ body.dark .home .text{
 /* Eigen werk */
 
 main {
-    padding: 0 .5rem 0 .9rem;
-    color: var(--text-color);
     display: flex;
     flex-direction: column;
+    padding: 0 .5rem 0 .9rem;
+    color: var(--text-color);
 }
 
 h1 {
+    margin-bottom: 2rem;
     font-size: 30px;
     text-align: center;
     overflow-wrap: break-word;
-    margin-bottom: 2rem;
 }
+
+/* Filters */
 
 .buttons {
     margin-bottom: 2rem;
@@ -379,17 +381,19 @@ h1 {
 }
 
 button {
+    margin: 0 .5rem .5rem 0;
+    padding: .5rem .75rem;
     border: none;
+    border-radius: 1rem;
     background: white;
     font-family: AvenirMedium;
     font-size: 1rem;
-    border-radius: 1rem;
-    margin: 0 .5rem .5rem 0;
-    padding: .5rem .75rem;
     color: var(--text-color);
     cursor: pointer;
     transition: .2s ease-in-out;
 }
+
+/* Boekenlijst */
 
 .book {
     justify-content: center;
@@ -406,8 +410,8 @@ button {
 }
 
 .book a {
-    background: white;
     padding: .5rem 2rem;
+    background: white;
     border-radius: 1rem;
     color: var(--text-color);
     transition: .2s ease-in-out;
@@ -428,11 +432,11 @@ button {
 }
 
 .recommendations {
-    text-align: center;
     display: grid;
     grid-template-columns: repeat( auto-fit, 280px);
     gap: 1rem;
     justify-content: center;
+    text-align: center;
 }
 
 .activity {
@@ -454,17 +458,17 @@ button {
 
 .activity h3 {
     position: absolute;
-    bottom: 1em;
+    bottom: .1em;
     width: 100%;
 }
 
 .activity h3 a {
+    display: inline-block;
     padding: .4rem 1rem;
     background: white;
     border-radius: 1rem;
-    color: var(--text-color);
-    display: inline-block;
     max-width: 90%;
+    color: var(--text-color);
     overflow: hidden;
     white-space: nowrap;
     text-overflow:ellipsis;
@@ -531,32 +535,32 @@ body.dark .home .buttons button:focus {
 
 @media (min-width: 53em) {
     h1 {
-        text-align: start;
         padding-left: 1rem;
+        text-align: start;
     }
 
     .buttons {
-        text-align: start;
         padding-left: 1rem;
+        text-align: start;
     }
 
     .book {
-        text-align: start;
-        margin: 0 3rem 2rem 0;
-        /* max-width: 180px; */
         display: flex;
         flex-flow: column;
         align-items: start;
         justify-content: space-between;
+        text-align: start;
+        margin: 0 3rem 2rem 0;
+        /* max-width: 180px; */
     }
 
     .book-list {
         /* display: flex;
         flex-wrap: wrap; */
-        padding-left: 1rem;
-        margin-bottom: 2rem;
         display: grid;
         grid-template-columns: repeat( auto-fit, minmax(180px, 1fr) );
+        padding-left: 1rem;
+        margin-bottom: 2rem;
         gap: 1rem;
     }
 
