@@ -372,6 +372,24 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.buttons {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+button {
+    border: none;
+    background: white;
+    font-family: AvenirMedium;
+    font-size: 1rem;
+    border-radius: 1rem;
+    margin: 0 .5rem .5rem 0;
+    padding: .5rem .75rem;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
 .book {
     justify-content: center;
     text-align: center;
@@ -460,7 +478,9 @@ h1 {
 .activity h3 a:hover, 
 .activity h3 a:focus,
 .book a:hover,
-.book a:focus {
+.book a:focus,
+.buttons button:hover,
+.buttons button:focus {
     background: var(--primary-color);
     opacity: 0.8;
     color: white;
@@ -506,6 +526,11 @@ body.dark .home .book a:focus {
 
 @media (min-width: 53em) {
     h1 {
+        text-align: start;
+        padding-left: 1rem;
+    }
+
+    .buttons {
         text-align: start;
         padding-left: 1rem;
     }
