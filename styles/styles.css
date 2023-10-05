@@ -356,6 +356,7 @@ body.dark .home .text{
 }
 
 /*Einde Amber's format*/
+
 /* Eigen werk */
 
 main {
@@ -412,9 +413,7 @@ button {
     transition: .2s ease-in-out;
 }
 
-/* section {
-    background-color: white;
-} */
+/* Aanbevolen activiteiten */
 
 .rec-title {
     display: flex;
@@ -428,8 +427,7 @@ button {
     text-align: center;
 }
 
-.recommendations{
-    /* justify-content: center; */
+.recommendations {
     text-align: center;
     display: grid;
     grid-template-columns: repeat( auto-fit, 280px);
@@ -475,6 +473,8 @@ button {
     transition: .5s;
 }
 
+/* Hovers & Focus */
+
 .activity h3 a:hover, 
 .activity h3 a:focus,
 .book a:hover,
@@ -499,9 +499,12 @@ button {
     text-decoration: none;
 }
 
+/* Dark mode */
+
 body.dark .home .book a, 
 body.dark .home .activity h3 a,
-body.dark .home .book img {
+body.dark .home .book img, 
+body.dark .home .buttons button {
     color: var(--primary-color);
     box-shadow: none;
 }
@@ -509,7 +512,9 @@ body.dark .home .book img {
 body.dark .home .activity h3 a:hover, 
 body.dark .home .activity h3 a:focus,
 body.dark .home .book a:hover,
-body.dark .home .book a:focus {
+body.dark .home .book a:focus,
+body.dark .home .buttons button:hover,
+body.dark .home .buttons button:focus {
     background: #FF0000;
     opacity: 0.8;
     color: white;
