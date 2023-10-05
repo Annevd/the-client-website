@@ -62,14 +62,23 @@
 * Doelgroep: gebruikers van familieabonnementen van de OBA, mensen van verschillende nationaliteiten en niveau digitale vaardigheid.
 * OBA wil een laagdrempelige en toegankelijke omgeving voor hun gebruikers, dit door minder tekst en meer visuele cues, een modern en overzichtelijk uiterlijk.
 * De mijn-OBA omgeving is nu niet erg toegankelijk en ziet er niet aantrekkelijk uit, het is verwarrend en lastig te navigeren.
-* De website wordt nu voornamelijk gebruikt op de desktop. Er is wel een toename in mobiele gebruikers, dus de mobiele versie moet ook toegankelijk zijn. 
+* De website wordt nu voornamelijk gebruikt op de desktop. Er is wel een toename in mobiele gebruikers, dus de mobiele versie moet ook toegankelijk zijn.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Bij mijn pagina, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend. Daaronder staan een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit.
+
 <!-- Voeg een mooie poster visual toe 📸 -->
+![Schermafbeelding 2023-10-05 112054](https://github.com/Annevd/the-client-website/assets/144004647/2fdf7e01-28ee-4be0-9891-9e983b1d7691)
+
+
 <!-- Voeg een link toe naar Github Pages 🌐-->
+[Mijn website](https://annevd.github.io/the-client-website/uitleengeschiedenis.html)
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten.
 
 
 
