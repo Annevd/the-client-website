@@ -403,6 +403,8 @@ button {
 
 .book img {
     box-shadow: 5px 5px 5px rgb(204, 204, 204);
+    width: 180px;
+    height: 285px;
 }
 
 .book p {
