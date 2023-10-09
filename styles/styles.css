@@ -119,7 +119,7 @@ body.dark{
 }
 
 .sidebar .text{
-    font-size: 17px;
+    font-size: 1rem;
     font-weight: 500;
     white-space: nowrap;
     opacity: 1;
@@ -362,7 +362,7 @@ body.dark .home .text{
 main {
     display: flex;
     flex-direction: column;
-    padding: 0 .5rem 0 .9rem;
+    padding: 0 0.5rem 0 0.9rem;
     color: var(--text-color);
 }
 
@@ -381,8 +381,8 @@ h1 {
 }
 
 button {
-    margin: 0 .5rem .5rem 0;
-    padding: .5rem .75rem;
+    margin: 0 0.5rem 0.5rem 0;
+    padding: 0.5rem 0.75rem;
     border: none;
     border-radius: 1rem;
     background: white;
@@ -412,11 +412,11 @@ button {
 }
 
 .book a {
-    padding: .5rem 2rem;
+    padding: 0.5rem 2rem;
     background: white;
     border-radius: 1rem;
     color: var(--text-color);
-    transition: .2s ease-in-out;
+    transition: 0.2s ease-in-out;
 }
 
 /* Aanbevolen activiteiten */
@@ -460,13 +460,13 @@ button {
 
 .activity h3 {
     position: absolute;
-    bottom: .1em;
+    bottom: 0.1em;
     width: 100%;
 }
 
 .activity h3 a {
     display: inline-block;
-    padding: .4rem 1rem;
+    padding: 0.4rem 1rem;
     background: white;
     border-radius: 1rem;
     max-width: 90%;
@@ -475,8 +475,8 @@ button {
     white-space: nowrap;
     text-overflow:ellipsis;
 
-    transition: .2s ease-in-out;
-    transition: .5s;
+    transition: 0.2s ease-in-out;
+    transition: 0.5s;
 }
 
 /* Hovers & Focus */
@@ -488,7 +488,6 @@ button {
 .buttons button:hover,
 .buttons button:focus {
     background: var(--primary-color);
-    opacity: 0.8;
     color: white;
 }
 
@@ -497,11 +496,10 @@ button {
     transition: 0s;
 }
 
-.book a, .activity a:link {
-    text-decoration: none;
-}
-
-.book a, .activity a:visited {
+.book a, 
+.activity a:link,
+.book a, 
+.activity a:visited {
     text-decoration: none;
 }
 
@@ -522,7 +520,6 @@ body.dark .home .book a:focus,
 body.dark .home .buttons button:hover,
 body.dark .home .buttons button:focus {
     background: #FF0000;
-    opacity: 0.8;
     color: white;
 }
 
