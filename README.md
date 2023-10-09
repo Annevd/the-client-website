@@ -70,7 +70,7 @@
 Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Bij mijn pagina, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en staat er een voorbeeld van hoe je kan filteren op tijd. Daaronder staan een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
-![Schermafbeelding 2023-10-05 112054](https://github.com/Annevd/the-client-website/assets/144004647/2fdf7e01-28ee-4be0-9891-9e983b1d7691)
+![Schermafbeelding 2023-10-05 112054](https://github.com/Annevd/the-client-website/assets/144004647/a9b85367-be8f-4820-8ee3-1cc9f4dfd78f)
 
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
