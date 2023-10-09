@@ -385,10 +385,10 @@ button {
     padding: 0.5rem 0.75rem;
     border: none;
     border-radius: 1rem;
-    background: white;
+    background: var(--primary-color);
     font-family: AvenirMedium;
     font-size: 1rem;
-    color: var(--text-color);
+    color: white;
     cursor: pointer;
     transition: .2s ease-in-out;
 }
@@ -484,11 +484,15 @@ button {
 .activity h3 a:hover, 
 .activity h3 a:focus,
 .book a:hover,
-.book a:focus,
-.buttons button:hover,
-.buttons button:focus {
+.book a:focus {
     background: var(--primary-color);
     color: white;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+    background: white;
+    color: var(--text-color);
 }
 
 .activity h3 a:active {
@@ -507,18 +511,25 @@ button {
 
 body.dark .home .book a, 
 body.dark .home .activity h3 a,
-body.dark .home .book img, 
-body.dark .home .buttons button {
+body.dark .home .book img {
     color: var(--primary-color);
     box-shadow: none;
+}
+
+body.dark .home .buttons button {
+    background: #FF0000;
+}
+
+body.dark .home .buttons button:hover,
+body.dark .home .buttons button:focus {
+    background: white;
+    color: var(--primary-color);
 }
 
 body.dark .home .activity h3 a:hover, 
 body.dark .home .activity h3 a:focus,
 body.dark .home .book a:hover,
-body.dark .home .book a:focus,
-body.dark .home .buttons button:hover,
-body.dark .home .buttons button:focus {
+body.dark .home .book a:focus {
     background: #FF0000;
     color: white;
 }
