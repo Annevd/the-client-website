@@ -419,6 +419,53 @@ button {
     transition: 0.2s ease-in-out;
 }
 
+/* Popup */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    background: rgba(0, 0, 0, 0.2);
+    /* transition: opacity 50ms; */
+    visibility: hidden;
+    opacity: 0;
+    margin-left: 78px;
+    padding: 0 0.5rem 0 0.9rem;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto; 
+    padding: 20px;
+    background: #fff;
+    border-radius: 1rem;
+    width: 90%;
+    position: relative;
+    /* transition: all 5s ease-in-out; */
+}
+
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
 /* Aanbevolen activiteiten */
 
 .rec-title {
@@ -469,7 +516,7 @@ button {
     padding: 0.4rem 1rem;
     background: white;
     border-radius: 1rem;
-    max-width: 90%;
+    max-width: 80%;
     color: var(--text-color);
     overflow: hidden;
     white-space: nowrap;
@@ -572,6 +619,10 @@ body.dark .home .book a:focus {
         padding-left: 1rem;
         margin-bottom: 2rem;
         gap: 1rem;
+    }
+
+    .popup{
+        width: 30%;
     }
 
     .rec-title {
