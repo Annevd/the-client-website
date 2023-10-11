@@ -12,6 +12,12 @@
 
 ## User Story
 > Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
+> Functies:
+
+> * Familieleden
+> * Beschikbare diensten
+> * Laatst geleende boeken
+> * In te leveren boeken om boete te voorkomen
 
 ## Beschrijving
 
@@ -67,17 +73,21 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Bij mijn pagina, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en staat er een voorbeeld van hoe je kan filteren op tijd. Daaronder staan een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit.
+Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Bij de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
-### Laptop Light mode
+### Groot scherm Light mode
 ![Schermafbeelding 2023-10-05 112054](https://github.com/Annevd/the-client-website/assets/144004647/4181c639-3e02-42f8-90f2-09e9fb01d89b)
-### Laptop Dark mode
+### Groot scherm Dark mode
 ![Schermafbeelding 2023-10-11 102356](https://github.com/Annevd/the-client-website/assets/144004647/a3b0037f-414d-46a1-a817-2786ea7ba86c)
 ### Mobiel Dark mode
 ![Schermafbeelding 2023-10-11 102429](https://github.com/Annevd/the-client-website/assets/144004647/01979cb1-14d6-4816-9ced-2217f7758790)
 ### Mobiel Light mode
 ![Schermafbeelding 2023-10-11 102451](https://github.com/Annevd/the-client-website/assets/144004647/2f82c18f-531b-4809-835e-1f75ce3135ec)
+### Groot scherm popup
+![Schermafbeelding 2023-10-11 125355](https://github.com/Annevd/the-client-website/assets/144004647/4b555672-0bd1-4588-a269-3d63b7cf589a)
+### Klein scherm popup
+![Schermafbeelding 2023-10-11 125426](https://github.com/Annevd/the-client-website/assets/144004647/71d9bc81-06a0-46de-a713-ca8cb05b0232)
 
 <!-- Voeg een link toe naar Github Pages 🌐-->
 [Mijn website](https://annevd.github.io/the-client-website/uitleengeschiedenis.html)
