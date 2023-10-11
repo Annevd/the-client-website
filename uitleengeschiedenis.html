@@ -34,7 +34,7 @@
             <p class="profession">5 jaar lid</p>
           </div>
         </div>
-
+        
         <i class="bx bx-chevron-right toggle"></i>
       </header>
 
@@ -52,6 +52,14 @@
                 <p class="text nav-text">Welkom</p>
               </a>
             </li>
+
+            <ul class="menu-links">
+              <li class="nav-link">
+                <a href="https://pommelienn.github.io/the-client-website/">
+                  <i class="bx bx-user icon"></i>
+                  <p class="text nav-text">Overzicht abonnementen</p>
+                </a>
+              </li>
 
             <li class="nav-link">
               <a href="#">
@@ -144,11 +152,78 @@
 
         <h1>Uitleengeschiedenis</h1>
 
+        <!-- Zoekbalk -->
+
+          <form action="#">
+              <input type="text" placeholder="Zoek..." name="search">
+              <i class='bx bx-search'></i>
+          </form>
+
+          <!-- Filters -->
+
           <div class="buttons">
             <button>Afgelopen week</button>
             <button>Afgelopen maand</button>
             <button>Afgelopen jaar</button>
           </div>
+
+          <!-- Popups -->
+
+          <div id="popup1" class="overlay">
+            <div class="popup">
+              <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op 1 oktober juni 2023</p>
+                <p>Ingelevered op 10 oktober 2023</p>
+            </div>
+          </div>
+
+          <div id="popup2" class="overlay">
+            <div class="popup">
+               <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op  28 september 2023</p>
+                <p>Ingelevered op 3 oktober 2023</p>
+            </div>
+          </div>
+
+          <div id="popup3" class="overlay">
+            <div class="popup">
+              <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op 12 augustus 2023</p>
+                <p>Ingelevered op 20 augustus 2023</p>
+            </div>
+          </div>
+
+          <div id="popup4" class="overlay">
+            <div class="popup">
+              <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op 8 juli 2023</p>
+                <p>Ingelevered op 20 juli 2023</p>
+            </div>
+          </div>
+
+          <div id="popup5" class="overlay">
+            <div class="popup">
+              <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op 23 maart 2023</p>
+                <p>Ingelevered op 29 maart 2023</p>
+            </div>
+          </div>
+
+          <div id="popup6" class="overlay">
+            <div class="popup">
+              <h2>Informatie</h2>
+              <a class="close" href="#">&times;</a>
+                <p>Uitgeleend op 1 januari 2023</p>
+                <p>Ingelevered op 5 februari 2023</p>
+            </div>
+          </div>
+
+          <!-- Boekenlijst -->
 
           <div class="book-list">
             <article class="book">
@@ -158,52 +233,45 @@
               <a href="#popup1">Info</a>
             </article>
 
-            <div id="popup1" class="overlay">
-              <div class="popup">
-                <h2>Informatie</h2>
-                <a class="close" href="#">&times;</a>
-                  <p>Uitgeleend op 10 juni 2023</p>
-                  <p>Ingelevered op 20 juni 2023</p>
-              </div>
-            </div>
-
             <article class="book">
               <img src="./images/books/boek2.png" alt="boek-cover">
               <h2>The sellout</h2>
               <p>Paul Beatty</p>
-              <a href="#">Info</a>
+              <a href="#popup2">Info</a>
             </article>
 
             <article class="book">
               <img src="./images/books/boek3.jpg" alt="boek-cover">
               <h2>Vallen is als vliegen</h2>
               <p>Manon Uphoff</p>
-              <a href="#">Info</a>
+              <a href="#popup3">Info</a>
             </article>
 
             <article class="book">
               <img src="./images/books/boek4.jpg" alt="boek-cover">
               <h2>De avond is ongemak</h2>
               <p>Marieke Lucas Rijneveld</p>
-              <a href="#">Info</a>
+              <a href="#popup4">Info</a>
             </article>
 
             <article class="book">
               <img src="./images/books/boek5.jpg" alt="boek-cover">
               <h2>Knielen op een bed violen</h2>
               <p>Jan Siebelink</p>
-              <a href="#">Info</a>
+              <a href="#popup5">Info</a>
             </article>
 
             <article class="book">
               <img src="./images/books/boek6.jpg" alt="boek-cover">
               <h2>De heilige Rita</h2>
               <p>Tommy Wieringa</p>
-              <a href="#">Info</a>
+              <a href="#popup6">Info</a>
             </article>
           </div>
             
           <section>
+
+            <!-- Aanbevolen Activiteiten -->
 
             <div class="rec-title">
               <h2>Aanbevolen activiteiten</h2>
