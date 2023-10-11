@@ -77,7 +77,7 @@ Voor deze opdracht moeten wij een overzicht van alle abonnementen van een famili
 
 De website is verder gebouwd vanuit een eerder gemaakt format van tweedejaars student Amber. Op de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. 
 
-Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
+Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Daaronder staan een paar filters waar je later op zou kunnen klikken om te sorteren op tijd. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 ### Groot scherm Light mode
