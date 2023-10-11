@@ -73,7 +73,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Bij de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
+Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedejaars student. Op de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 ### Groot scherm Light mode
@@ -94,7 +94,7 @@ Mijn website is verder gebouwd vanuit een eerder gemaakt format van een tweedeja
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten.
+Voor deze website heb ik HTML en CSS gebruikt. De HTML is gestructureerd in articles, divs en een section. De belangrijkste dingen met css zijn de grids op de boekenlijst en op de aanbevolen activiteiten. Daarnaast gebruik ik flex om de boeken, titels, auteur en de info knop onder elkaar te zetten. Bekijk mijn wiki voor nog meer uitleg!
 
 
 
