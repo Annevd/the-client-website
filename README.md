@@ -74,7 +74,10 @@
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 Voor deze opdracht moeten wij een overzicht van alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid maken. Ik en de andere mensen met OBA als opdrachtgever hebben de pagina's verdeeld en daarna op elk van onze pagina naar elkaar doorgelinkt.
-De website is verder gebouwd vanuit een eerder gemaakt format van tweedejaars student Amber. Op de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
+
+De website is verder gebouwd vanuit een eerder gemaakt format van tweedejaars student Amber. Op de pagina waar ik aan gewerkt heb, uitleengeschiedenis, kan je de boeken zien die je in het verleden hebt geleend en daaronder een paar aanbevolen activiteiten van de OBA waar je op kan klikken om doorgeleid te worden naar de OBA informatiepagina van de desbetreffende activiteit. 
+
+Bovenaan de pagina staat een zoekfunctie, waar je later specifiek zou kunnen zoeken naar een boek. Een andere functie aanwezig op deze pagina is de info knop onder de boeken. ALs je hier op klikt komt er een venster tevoorschijn met meer informatie over wanneer het boek is uitgeleend, en wanneer het weer is ingeleverd.
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 ### Groot scherm Light mode
